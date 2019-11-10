@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
+</head>
+<body>
+    <header>
+        <h1 id="reserve">Reserve</h1>
+    </header>
+    <main>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="E-mail address">
+        <input type="text" placeholder="Tel number">
+        
+        <input type="date" value="" placeholder="Preferred date">
+        <input type="time" value="" placeholder="Preferred time">
+        <select name="area">
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Valencia">Valencia</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Zaragoza">Zaragoza</option>
+            <option value="Malag">Malaga</option>
+            <option value="Bilbao">Bilbao</option>
+            <option value="Tenerife">Tenerife</option>
+        </select>
+        <textarea name id cols="30" rows="10" placeholder="Question"></textarea>
+        <input type="submit" value="Send!!" class="btn">
+        <div class="modal-wrapper">
+          <div class="modal-content">
+            <div class="modal-close js-modal-close">
+            <span>×</span>
+            </div>
+            <p>Thank you for having you input information! <br> Transmit a message! <br> Look forward to meeting you!  </p>
+          </div>
+          <div id="modal-bg" class="js-modal-close"></div>
+        </div>
+    </main>
+    <footer>
+        <p>copyright massimo.corp.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/app3.js"></script>
+</body>
+</html>
