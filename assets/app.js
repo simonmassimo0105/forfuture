@@ -10,7 +10,7 @@ text.addEventListener('mouseleave', function() {
 var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     // direction: 'vertical',
-    loop: true,
+    autoplay: true,
     
 
     // If we need pagination
@@ -19,10 +19,10 @@ var mySwiper = new Swiper ('.swiper-container', {
     // },
 
     // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
 
     // // And if we need scrollbar
     // scrollbar: {
